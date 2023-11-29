@@ -18,36 +18,20 @@ restaurant-recommendation-system/
 │ ├── raw/ # Unprocessed data
 │ │ ├── orders.csv # simulated orders from customers
 │ │ ├── test_customers.csv # test & train : simulated customer profile data
-| | ├── test_0.zip # test & train : the full test dataset (a zip of a csv for memory saving)
-| | ├── test_1.zip
-| | ├── test_locations.csv # test & train: simulated customer locations
-| | ├── train_customers.csv
-| | ├── train_0.zip (a zip of a csv for memory saving)
-| | ├── train_1.zip (a zip of a csv for memory saving)
-| | ├── train_2.zip (a zip of a csv for memory saving)
-| | ├── train_3.zip (a zip of a csv for memory saving)
-| | ├── train_4.zip (a zip of a csv for memory saving)
-| | ├── train_5.zip (a zip of a csv for memory saving)
-| | ├── train_6.zip (a zip of a csv for memory saving)
-| | ├── train_7.zip (a zip of a csv for memory saving)
-| | ├── train_locations.csv
+| | ├── test_0.zip # zipped for memory savingns
+| | ├── train_0.zip 
 | | ├── vendors.csv # simulated restaurant vendor information
 │ │ └── VariableDefinitions.txt # data dictionary
 │ │
 │ ├── processed/ # Processed and cleaned data
-│ │ ├── customer_data_processed.csv # **TO-DO**
-│ │ ├── location_data_processed.csv # **TO-DO**
-│ │ └── restaurant_data_processed.csv # **TO-DO**
-│ │
-│ └── masked/ # Masked data for security
-│ ├── customer_data_masked.csv # **TO-DO**
-│ ├── location_data_masked.csv # **TO-DO**
-│ └── restaurant_data_masked.csv # **TO-DO**
+│ │ ├── train_data_processed.csv # **TO-DO**
+│ │ ├── test_data_processed.csv # **TO-DO**
+│
 │
 ├── notebooks/ # Jupyter notebooks for exploration and analysis
-│ ├── data_preprocessing.ipynb # **TO-DO**
+│ ├── data_preprocessing.ipynb
 │ ├── exploratory_analysis.ipynb # **TO-DO**
-│ └── model_development.ipynb # **TO-DO**
+│ └── model_development.ipynb
 │
 ├── src/ # Source code # **TO-DO**
 │ ├── data_preprocessing/ # Scripts for data preprocessing
